@@ -17,6 +17,8 @@ main {
 
     color: orangered;
     font-family: Comic Sans MS;
+    border: 3px solid greenyellow;
+    background-color: bisque;
     
 }
 
