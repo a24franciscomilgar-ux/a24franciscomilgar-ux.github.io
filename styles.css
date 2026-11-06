@@ -1,0 +1,25 @@
+header {
+
+    color: orangered;
+    border: 5px solid blueviolet;
+    text-align: center;
+    background-color: lightgrey;
+    font-family: Comic Sans MS;
+
+}
+
+body {
+    background-image: url(Imágenes/fondo.jpg);
+    background-size: cover;
+}
+
+main {
+
+    color: orangered;
+    font-family: Comic Sans MS;
+    
+}
+
+footer {
+    font-family: Comic Sanas MS;
+}
