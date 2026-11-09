@@ -13,16 +13,22 @@ body {
     background-size: cover;
 }
 
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 main {
 
     color: whitesmoke;
     font-family: Comic Sans MS;
+    text-decoration: none;
     
 }
 
 .pie {
     background-color: black;
-    border: 2px solid lightgrey;
+    
     color: lightgrey;
     font-family: Comic Sans MS;
 }

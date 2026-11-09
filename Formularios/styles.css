@@ -1,0 +1,9 @@
+
+.flecha{
+    width: 11px;
+    background-color: rgb(197, 25, 25);
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
