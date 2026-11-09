@@ -1,25 +1,28 @@
 header {
 
-    color: orangered;
-    border: 5px solid blueviolet;
+    color: white;
+    border: 5px solid lightgrey;
     text-align: center;
-    background-color: lightgrey;
+    
     font-family: Comic Sans MS;
 
 }
 
 body {
-    background-image: url(Imágenes/fondos.jpg);
+    background-image: url(Imágenes/fondod.jpg);
     background-size: cover;
 }
 
 main {
 
-    color: orangered;
+    color: whitesmoke;
     font-family: Comic Sans MS;
     
 }
 
 .pie {
+    background-color: black;
+    border: 2px solid lightgrey;
+    color: lightgrey;
     font-family: Comic Sans MS;
 }
