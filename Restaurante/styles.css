@@ -6,3 +6,10 @@
     text-decoration: none;
     color: black;
 }
+
+nav{
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 15px;
+}
