@@ -4,7 +4,12 @@
     border: 2px solid black;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+header{
+    background-color: burlywood;
+    color: white;
 }
 
 nav{
@@ -12,4 +17,11 @@ nav{
     border-bottom: 2px solid black;
     border-top: 2px solid black;
     padding: 15px;
+    background-color: rgb(136, 69, 14);
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    justify-content: center;
 }
