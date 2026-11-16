@@ -1,5 +1,5 @@
 .flecha{
-    width: 11px;
+    width: 10px;
     background-color: rgb(197, 25, 25);
     border: 2px solid black;
     text-align: center;
@@ -9,11 +9,16 @@
 
 header{
     background-color: burlywood;
+    h1{
+        text-align: center;
+    }
     color: white;
 }
 
 nav{
     text-align: center;
+    color: whitesmoke;
+    text-decoration: double;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
     padding: 15px;
@@ -21,7 +26,8 @@ nav{
 }
 
 a{
-    text-decoration: none;
+    
+    text-decoration: double;
     color: whitesmoke;
     justify-content: center;
 }
