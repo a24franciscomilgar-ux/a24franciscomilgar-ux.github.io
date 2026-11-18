@@ -1,11 +1,38 @@
-.flecha{
-    width: 10px;
-    background-color: rgb(197, 25, 25);
-    border: 2px solid black;
-    text-align: center;
-    text-decoration: none;
-    color: white;
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 10x;
+  padding: 10x 20;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 15;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: #000000;
+  background: radial-gradient(circle, #ffffff, #b2011e);
+  border: 2px solid black;  
+  box-shadow: 0 6px 20px 0 rgba(198, 42, 42, 0.45);
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
+
+.button:hover svg{
+  background: radial-gradient(circle, #ad3448, #ad3448);
+  fill: #ffffff;
+  transform: translateY(-1px);
+}
+
+.button:focus-visible {
+  outline: 2px solid #c62a2a;
+  outline-offset: 3px;
+}
+
+.button:active {
+  transform: scale(0.96);
+}
+
 
 header{
     background-color: burlywood;
@@ -34,3 +61,6 @@ a{
     color: whitesmoke;
     justify-content: center;
 }
+
+
+
