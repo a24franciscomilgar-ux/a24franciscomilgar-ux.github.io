@@ -68,6 +68,11 @@ nav{
     background-color: rgb(136, 69, 14);
 }
 
+.imagen {
+  display: block;
+  margin: auto;
+}
+
 nav a{
     margin: 0 8px;
 }
