@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -21,12 +25,12 @@
 .button:hover svg{
   background: radial-gradient(circle, #ad3448, #ad3448);
   fill: #ffffff;
-  transform: translateY(-1px);
+  transform: translateY(0px);
 }
 
 .button:focus-visible {
-  outline: 2px solid #c62a2a;
-  outline-offset: 3px;
+  outline: 6px solid #c62a2a;
+  outline-offset: 0px;
 }
 
 .button:active {
@@ -38,7 +42,8 @@ header{
     background-color: burlywood;
     h1{
         text-align: center;
-        font-family: Comic Sans MS;
+        font-size: 65px;
+        font-weight: 500;
         -webkit-text-stroke: 2px black;
     }
     padding: 1px;
@@ -46,7 +51,9 @@ header{
 }
 
 nav{
-    text-align: center;
+    justify-content: center;
+    gap: 15px;
+    display: flex;
     color: whitesmoke;
     text-decoration: double;
     border-bottom: 2px solid black;
@@ -55,8 +62,11 @@ nav{
     background-color: rgb(136, 69, 14);
 }
 
+nav a{
+    margin: 0 8px;
+}
+
 a{
-    
     text-decoration: double;
     color: whitesmoke;
     justify-content: center;
